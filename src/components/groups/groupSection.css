@@ -1,0 +1,76 @@
+.notesGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.groupListTopSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20%;
+  width: 100%;
+}
+.appHeading {
+  margin-left: 7%;
+  font-size: xx-large;
+  text-align: center;
+}
+.createGroupBtn {
+  width: 1.5em;
+  height: 1.5em;
+  align-self: center;
+  background: #000000;
+  border-radius: 50px;
+  color: white;
+  font-size: 4rem;
+  padding: 2% 2%;
+  margin: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #16008b;
+}
+
+.groupListSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-top: 2%;
+  height: 80%;
+  width: 100%;
+  overflow: auto;
+}
+.groupCard {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding: 4% 0% 4% 4%;
+  box-sizing: border-box;
+  border-radius: 32px 0px 0px 32px;
+}
+.groupIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8vh;
+  height: 8vh;
+  border-radius: 100px;
+  color: white;
+  font-size: 4vh;
+  margin-right: 3%;
+}
+.groupName {
+  color: black;
+  font-weight: 600;
+  font-size: 3vh;
+}
+.deleteGroupBtn {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: url("../../assets/delete.png") no-repeat top left;
+  margin: 7px 0px 0 5px;
+}

@@ -1,0 +1,162 @@
+.noteSection {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #f7ecdc;
+}
+.noGroupSelectedSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.messageWrapper {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pocketNotesHeading {
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0px;
+}
+.encryptionMsg {
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+}
+.encryptionMsg > img {
+  margin-right: 5px;
+}
+
+.NotesListingInnerWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.notesIconBar {
+  display: flex;
+  width: 100%;
+  height: 12%;
+  align-items: center;
+  background: #e8e8e8;
+}
+.navGroupIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8vh;
+  height: 8vh;
+  border-radius: 100px;
+  color: white;
+  font-size: 4vh;
+  margin: 0% 2%;
+}
+.navGroupName {
+  color: black;
+  font-weight: 600;
+  font-size: 3vh;
+}
+
+.notesListing {
+  display: flex;
+  flex-direction: column;
+  /* background: #f7ecdc; */
+  background: #dae5f5;
+  width: 100%;
+  height: 58%;
+  padding: 5% 5% 0% 5%;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.noteBlock {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 7vh;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 10px 10px lightblue;
+}
+
+.dateTime {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.note {
+  display: flex;
+  width: 85%;
+}
+
+.notesInputWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  background: #e8e8e8;
+  position: relative;
+}
+.notesInputArea {
+  resize: none;
+  width: 95%;
+  height: 85%;
+}
+.sendMessageIcon {
+  position: absolute;
+  bottom: 12%;
+  right: 4%;
+}
+
+.backIconWrapper {
+  display: flex;
+  height: 100%;
+  width: 10%;
+  align-items: center;
+  justify-content: center;
+}
+.deleteButton {
+  color: #090909;
+  padding: 0.4em 1.2em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 5px;
+}
+.deleteButton:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.editButton {
+  color: #090909;
+  padding: 0.4em 1.2em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+.editButton:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
